@@ -15,6 +15,7 @@
 		A8035FE91D06A7160034EA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8035FE71D06A7160034EA54 /* LaunchScreen.storyboard */; };
 		A8035FF41D06A7160034EA54 /* SourceTreeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8035FF31D06A7160034EA54 /* SourceTreeTestTests.m */; };
 		A8035FFF1D06A7160034EA54 /* SourceTreeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8035FFE1D06A7160034EA54 /* SourceTreeTestUITests.m */; };
+		A803600E1D06A9090034EA54 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A803600D1D06A9090034EA54 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A8035FFA1D06A7160034EA54 /* SourceTreeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTreeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8035FFE1D06A7160034EA54 /* SourceTreeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTreeTestUITests.m; sourceTree = "<group>"; };
 		A80360001D06A7160034EA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A803600C1D06A9090034EA54 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A803600D1D06A9090034EA54 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				A8035FDC1D06A7160034EA54 /* AppDelegate.h */,
 				A8035FDD1D06A7160034EA54 /* AppDelegate.m */,
+				A803600C1D06A9090034EA54 /* Person.h */,
+				A803600D1D06A9090034EA54 /* Person.m */,
 				A8035FDF1D06A7160034EA54 /* ViewController.h */,
 				A8035FE01D06A7160034EA54 /* ViewController.m */,
 				A8035FE21D06A7160034EA54 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				A8035FE11D06A7160034EA54 /* ViewController.m in Sources */,
 				A8035FDE1D06A7160034EA54 /* AppDelegate.m in Sources */,
+				A803600E1D06A9090034EA54 /* Person.m in Sources */,
 				A8035FDB1D06A7160034EA54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				A80360051D06A7170034EA54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80360061D06A7170034EA54 /* Build configuration list for PBXNativeTarget "SourceTreeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				A80360081D06A7170034EA54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80360091D06A7170034EA54 /* Build configuration list for PBXNativeTarget "SourceTreeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				A803600B1D06A7170034EA54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
